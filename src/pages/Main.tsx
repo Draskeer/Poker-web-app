@@ -5,10 +5,10 @@ const Main = () => {
     <div className="flex w-full h-full flex-col justify-center items-center bg-green-800">
       <nav className="w-full flex justify-between list-none p-5">
         <li>
-          <Link to="/HoldemPocker">Holdem Pocker</Link>
+          <Link to="/HoldemPoker">Holdem Poker</Link>
         </li>
         <li>
-          <Link to="/SimplePocker">Simple Pocker</Link>
+          <Link to="/SimplePoker">Simple Poker</Link>
         </li>
       </nav>
       <Outlet />
